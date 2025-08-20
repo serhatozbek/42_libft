@@ -1,4 +1,4 @@
-#📚 Libft - 42 Kocaeli Projesi
+**📚 Libft - 42 Kocaeli Projesi**
 
 Bu repo, 42 Okulları'nın müfredatının ilk ve en temel projesi olan libft'in kendi implementasyonumu içermektedir. Projenin amacı, standart C kütüphanesinin (<string.h>, <stdlib.h> vb.) sık kullanılan fonksiyonlarını sıfırdan yazarak, C dilinin temel mekaniklerine ve hafıza yönetimine derinlemesine hakim olmaktır.
 
@@ -6,7 +6,8 @@ Bu kütüphane, 42'deki daha karmaşık ve büyük projelerde kullanılacak güv
 
 ---
 
-##🎯 Projenin Amacı ve Kazanılan Yetkinlikler
+**🎯 Projenin Amacı ve Kazanılan Yetkinlikler**
+
 libft projesi, bir yazılımcı olarak aşağıdaki temel yetkinlikleri kazanmamı ve pekiştirmemi sağladı:
 
 🧠 **Derinlemesine C Bilgisi**: Pointer'lar, hafıza ayırma (malloc), adres aritmetiği ve veri tipleri üzerinde tam kontrol.
@@ -20,13 +21,15 @@ libft projesi, bir yazılımcı olarak aşağıdaki temel yetkinlikleri kazanmam
 🏗️ **Yazılım Mimarisi**: Yeniden kullanılabilir, modüler ve temiz kod yazma. Makefile kullanarak projenin derleme sürecini otomatikleştirme.
 
 ✅ **Disiplin ve Standartlar**: 42'nin Norminette kodlama standartlarına ve proje subjecti ile uyum.
+
 ---
 
-##📦 Kütüphanenin İçeriği
+**📦 Kütüphanenin İçeriği**
 
 Kütüphane, iki ana bölümden oluşmaktadır: C standart kütüphanesindeki fonksiyonların yeniden yazımı ve projelerde sıkça ihtiyaç duyulan ek yardımcı fonksiyonlar.
 
-###Bölüm 1: Libc Fonksiyonları
+**Bölüm 1: Libc Fonksiyonları**
+
 C standart kütüphanesinde (libc) bulunan temel fonksiyonların yeniden implementasyonu.
 
 ```shell
@@ -55,7 +58,8 @@ C standart kütüphanesinde (libc) bulunan temel fonksiyonların yeniden impleme
 #ft_strdup	Bir string'in kopyasını oluşturmak için bellekten yer ayırır.
 ```
 
-###Bölüm 2: Ek Fonksiyonlar
+**Bölüm 2: Ek Fonksiyonlar**
+
 libc'de bulunmayan fakat projelerde sıkça ihtiyaç duyulan yardımcı fonksiyonlar.
 
 ```shell
@@ -72,9 +76,10 @@ libc'de bulunmayan fakat projelerde sıkça ihtiyaç duyulan yardımcı fonksiyo
 #ft_putnbr_fd	Belirtilen dosya tanıtıcısına bir integer yazar.
 ```
 
-##🚀 Nasıl Kullanılır?
+**🚀 Nasıl Kullanılır?**
 
-###1. Derleme 💻
+**1. Derleme 💻**
+
 Projeyi klonladıktan sonra, ana dizinde make komutunu çalıştırarak libft.a adlı statik kütüphane dosyasını oluşturabilirsiniz.
 
 
@@ -98,7 +103,8 @@ make
 #make re: fclean ve ardından all komutlarını çalıştırarak kütüphaneyi yeniden oluşturur.
 ```
 
-###2. Projeye Dahil Etme 🔗
+**2. Projeye Dahil Etme 🔗**
+
 Kendi C projenizde libft kütüphanesini kullanmak için:
 
 libft.a ve libft.h dosyalarını projenizin dizinine kopyalayın.
@@ -115,7 +121,8 @@ Projenizi derlerken libft.a dosyasını bağlayın:
 gcc -Wall -Wextra -Werror your_project_files.c -I. -L. -lft -o your_program
 ```
 
-##⚠️ Sorumluluk Reddi
+**⚠️ Sorumluluk Reddi**
 
 Bu repository'deki çözümler tamamen eğitim ve portföy amaçlıdır. 42'nin onur kuralları (honour code) gereği, Common Core sürecindeki öğrencilerin çözümleri kopyalaması kesinlikle yasaktır. Buradaki kodlar, repodaki projeyi tamamlamış biri olarak gelişimimi göstermek ve gelecekteki projelerim için bir referans noktası oluşturmak amacıyla paylaşılmıştır.
+
 ---
