@@ -1,7 +1,9 @@
-#📚 Libft - 42 Kocaeli Projesi#
+#📚 Libft - 42 Kocaeli Projesi
+
 Bu repo, 42 Okulları'nın müfredatının ilk ve en temel projesi olan libft'in kendi implementasyonumu içermektedir. Projenin amacı, standart C kütüphanesinin (<string.h>, <stdlib.h> vb.) sık kullanılan fonksiyonlarını sıfırdan yazarak, C dilinin temel mekaniklerine ve hafıza yönetimine derinlemesine hakim olmaktır.
 
 Bu kütüphane, 42'deki daha karmaşık ve büyük projelerde kullanılacak güvenilir ve kişisel bir araç seti oluşturmanın ilk adımıdır. 🧰
+
 ---
 
 ##🎯 Projenin Amacı ve Kazanılan Yetkinlikler
